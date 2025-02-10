@@ -1,5 +1,3 @@
-import Industry from "./_swcomponents/industry";
-
 export const industriesOptions = [
   {
     title: 'Aerospace',
