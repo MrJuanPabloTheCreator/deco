@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 
 import styles from "./navbar.module.css";
-import { FaRegHeart } from 'react-icons/fa';
 
 const categories = [
     'Best sellers',
@@ -43,7 +42,7 @@ const Navbar = () => {
             </nav> 
             <nav className={styles.bottomNav}>
                 {categories.map((category, index) => (
-                    <p>
+                    <p key={index}>
                         {category}
                     </p>
                 ))}
