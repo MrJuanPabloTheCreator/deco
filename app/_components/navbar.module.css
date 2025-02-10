@@ -1,0 +1,54 @@
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.topNav {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    justify-content: space-between;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.topLeft {
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: 40rem;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    background-color: white;
+}
+
+.topNav input {
+    font-size: 1rem;
+    border: none;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottomNav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #93162d;
+    padding: 0.75rem;
+}
+
+.bottomNav {
+    font-weight: 600;
+}
